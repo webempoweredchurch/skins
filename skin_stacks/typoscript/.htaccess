@@ -1,0 +1,4 @@
+## This files denys access to the TypoScript Files by the web server
+
+Order Deny,Allow
+Deny from all
