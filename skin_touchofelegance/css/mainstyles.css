@@ -34,14 +34,14 @@
 
 /* @group Reset Styling */
 
-/* -------------------------------------------------------------- 
-  
+/* --------------------------------------------------------------
+
    reset.css
    * Resets default browser CSS.
-   
+
    Based on work by Eric Meyer:
    * meyerweb.com/eric/thoughts/2007/05/01/reset-reloaded/
-   
+
 -------------------------------------------------------------- */
 
 html, body, div, span, object, iframe,
@@ -142,7 +142,7 @@ div.csc-textpic-left div.csc-textpic-imagewrap,
 div.csc-textpic-right div.csc-textpic-imagewrap {
     margin-bottom: 10px;
 }
-    
+
 /* @end */
 
 /* @group Forms */
@@ -255,16 +255,16 @@ legend {
 	margin:0 auto;
 	width:950px;
 	}
-	
+
 #feature h1,
 #feature h2,
 #feature h3,
 #feature h4,
 #feature h5,
-#feature h6{	
+#feature h6{
 	color:#CCCCCC;
 	}
-	
+
 #generatedContent-1 {
 	width: 230px;
 	float: left;
@@ -385,6 +385,7 @@ legend {
 	margin:0;
 	position:relative;
 	text-align:center;
+	z-index:1000;
 	}
 
 #masthead {
@@ -737,8 +738,8 @@ a#footerHomeLink:hover {
 	margin-left:0;
 	margin-top:10px;
 	}
-#localMenu ul ul, 
-#localMenu ul ul ul, 
+#localMenu ul ul,
+#localMenu ul ul ul,
 #localMenu ul ul ul ul{
 	margin-left:20px;
 	}
@@ -748,8 +749,8 @@ a#footerHomeLink:hover {
 	margin-bottom: 14px;
 	font-size: 16px;
 	}
-#localMenu li li, 
-#localMenu li li li, 
+#localMenu li li,
+#localMenu li li li,
 #localMenu li li li li {
 	margin-bottom: 8px;
 	font-size: 14px;
@@ -884,7 +885,7 @@ a#footerHomeLink:hover {
 	width: 345px;
 	margin: 0 20px 20px 0;
 	vertical-align: top;
-	zoom: 1; 
+	zoom: 1;
 	*display:inline;
 }
 
